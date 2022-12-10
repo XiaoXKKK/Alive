@@ -2268,7 +2268,7 @@ void init_picture() {
 	bmp[7].pic[0]="[/=#######=";
 	bmp[7].pic[1]="   \"\"\"  /\\ ";
 	bmp[8].pic[0]=" ._._.     ";
-	bmp[8].pic[1]="[/[£¡]====[";
+	bmp[8].pic[1]="[/[!]====[";
 	bmp[9].pic[0]="_____=____ ";
 	bmp[9].pic[1]="\'\'\'\"|----/";
 }
@@ -2303,7 +2303,7 @@ void init_Armor() {
 void init_window() {
 	srand(time(NULL));
 	Winset(150,500);
-	SetConsoleTitle("Alive");
+	SetConsoleTitle((LPCWSTR)"Alive");
 	system("mode con cols=50 lines=37");
 	system("chcp 936");
 	system("cls");
